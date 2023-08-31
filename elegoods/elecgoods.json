@@ -1,0 +1,472 @@
+{
+  "version": "0.4",
+  "title": "Home-v3-elementor",
+  "type": "page",
+  "content": [
+    {
+      "id": "1f93950e",
+      "settings": {
+        "gap": "no",
+        "html_tag": "div"
+      },
+      "elements": [
+        {
+          "id": "735ef2c1",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "77f4caa6",
+              "settings": {
+                "features": [
+                  {
+                    "icon": "ec ec-transport",
+                    "text": "<strong>Free Delivery</strong> from $50",
+                    "_id": "c335aba"
+                  },
+                  {
+                    "icon": "ec ec-customers",
+                    "text": "<strong>99% Positive</strong> Feedbacks",
+                    "_id": "9071466"
+                  },
+                  {
+                    "icon": "ec ec-returning",
+                    "text": "<strong>365 days</strong> for free return",
+                    "_id": "4d6851c"
+                  },
+                  {
+                    "icon": "ec ec-payment",
+                    "text": "<strong>Payment</strong> Secure System",
+                    "_id": "8bbcc4c"
+                  },
+                  {
+                    "icon": "ec ec-tag",
+                    "text": "<strong>Only Best</strong> Brands",
+                    "_id": "4d6a908"
+                  },
+                  {
+                    "_id": "5f194a2"
+                  }
+                ]
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_feature_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "2dc3985a",
+      "settings": {
+        "gap": "no",
+        "html_tag": "div"
+      },
+      "elements": [
+        {
+          "id": "7a4b438b",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "1c7a6cf2",
+              "settings": {
+                "ads_block": [
+                  {
+                    "ad_text": "Catch the <br> Hottest <strong>Deals</strong> in <br> Cameras Category",
+                    "action_text": "Shop now",
+                    "ad_image": {
+                      "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/cameras.jpg",
+                      "id": 3376
+                    },
+                    "action_link": "# sdf",
+                    "_id": "9dcc533"
+                  },
+                  {
+                    "ad_text": "Tablets, <br>Smartphones <br><strong>and more</strong>",
+                    "action_text": "<span class=\"from\"><span class=\"prefix\">From</span><span class=\"value\"><sup>$</sup>749</span><span class=\"suffix\">99</span></span>",
+                    "ad_image": {
+                      "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/DesktopPC.jpg",
+                      "id": 3377
+                    },
+                    "_id": "95d7f20"
+                  }
+                ]
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_ads_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "46d16c35",
+      "settings": {
+        "gap": "no",
+        "html_tag": "div"
+      },
+      "elements": [
+        {
+          "id": "372fef89",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "4991789f",
+              "settings": {
+                "nav_align": "center",
+                "tabs": [
+                  {
+                    "title": "Featured",
+                    "shortcode_tag": "recent_products",
+                    "orderby": "date",
+                    "order": "desc",
+                    "products_choice": "select",
+                    "cat_operator": "IN",
+                    "_id": "b246b8c",
+                    "per_page": "12"
+                  },
+                  {
+                    "title": "On Sale",
+                    "shortcode_tag": "sale_products",
+                    "orderby": "date",
+                    "order": "desc",
+                    "products_choice": "select",
+                    "category": "",
+                    "cat_operator": "IN",
+                    "_id": "f1045d8",
+                    "per_page": "12"
+                  },
+                  {
+                    "title": "Top Rated",
+                    "shortcode_tag": "best_selling_products",
+                    "orderby": "date",
+                    "order": "desc",
+                    "products_choice": "ids",
+                    "product_id": "2599",
+                    "cat_operator": "IN",
+                    "_id": "8763f0f",
+                    "per_page": "12"
+                  }
+                ],
+                "items": "4",
+                "items_0": "2",
+                "items_480": "2",
+                "items_768": "3",
+                "items_992": "3"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_carousel_tabs",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "2f62c12f",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "html_tag": "div",
+        "background_background": "classic"
+      },
+      "elements": [
+        {
+          "id": "f4a20f0",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "1404b5ed",
+              "settings": {
+                "html_tag": "div",
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "css_classes": "products-carousel-with-image"
+              },
+              "elements": [
+                {
+                  "id": "4b994851",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "444287d7",
+                      "settings": {
+                        "image": {
+                          "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/2.0-banner-3.png",
+                          "id": 3367
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "image",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "column"
+                },
+                {
+                  "id": "4e7729e9",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "3dd98eaa",
+                      "settings": {
+                        "title": "Home Entertainment",
+                        "limit": "4",
+                        "show_custom_nav": "yes",
+                        "items": "2",
+                        "items_0": "2",
+                        "items_480": "2",
+                        "items_768": "2",
+                        "items_992": "3",
+                        "margin": "30px",
+                        "margin_0": "10px",
+                        "margin_480": "10px",
+                        "margin_768": "10px",
+                        "margin_992": "15px"
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "electro_elementor_products_carousel_block",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "column"
+                }
+              ],
+              "isInner": true,
+              "elType": "section"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "1eee81d7",
+      "settings": {
+        "gap": "no",
+        "html_tag": "div"
+      },
+      "elements": [
+        {
+          "id": "28b4aeff",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "2ec54b91",
+              "settings": {
+                "title": "Laptops & Computers",
+                "rows": "2",
+                "columns": "2",
+                "show_carousel_nav": "yes",
+                "limit": "8",
+                "orderby": "date",
+                "order": "DESC",
+                "cat_orderby": "date"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_cards_carousel_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "7558a3bc",
+      "settings": [],
+      "elements": [
+        {
+          "id": "43451ed4",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "12c8ce4d",
+              "settings": {
+                "title": "Trending Products",
+                "rows": "1",
+                "columns": "3",
+                "show_carousel_nav": "yes",
+                "limit": "12",
+                "orderby": "date",
+                "order": "DESC",
+                "cat_orderby": "date"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_cards_carousel_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "cc48ab3",
+      "settings": {
+        "gap": "no",
+        "html_tag": "div"
+      },
+      "elements": [
+        {
+          "id": "29ebb48",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "49025333",
+              "settings": {
+                "title": "Bestsellers",
+                "orderby": "date",
+                "order": "DESC",
+                "categories_title": "sadasdfjh",
+                "cat_limit": "3",
+                "cat_has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_6_1_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "7c79ca63",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "4ad08c12",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "351808a3",
+              "settings": {
+                "title": "Top Categories this Month",
+                "limit": "6",
+                "orderby": "date",
+                "order": "ASC",
+                "has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_home_list_categories",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "133b3699",
+      "settings": {
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "26be171e",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "17e017",
+              "settings": {
+                "title": "Recently Viewed",
+                "limit": "20",
+                "show_custom_nav": "true",
+                "items": "6",
+                "items_0": "2",
+                "items_480": "2",
+                "items_768": "2",
+                "items_992": "3",
+                "margin_0": "10px",
+                "margin_480": "10px",
+                "margin_768": "10px",
+                "margin_992": "15px"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_carousel_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    }
+  ]
+}
