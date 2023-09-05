@@ -1,0 +1,101 @@
+/* CSS to center align Header bottom bar links */
+header .electro-navbar-primary .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  */
+.elementor-5260
+  .elementor-element.elementor-element-012485e
+  .elementor-swiper-button.elementor-swiper-button-prev {
+  left: -1rem;
+}
+
+.elementor-5260
+  .elementor-element.elementor-element-012485e
+  .elementor-swiper-button.elementor-swiper-button-next {
+  right: -1rem;
+}
+
+/* CSS for hero section slider and deals block */
+
+rs-module#rev_slider_4_1,
+.da-inner.p-3.position-relative {
+  border-radius: 10px;
+  transition: transform 250ms;
+}
+
+.da-inner.p-3.position-relative:hover {
+  transform: translateY(-10px);
+}
+
+/* CSS for Subscribe form */
+
+div.wpforms-container-full {
+  margin: 0px !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  margin-top: 0px !important;
+}
+
+/* CSS to remove products from Footer */
+
+.footer-widgets.row.row-cols-lg-2.row-cols-xl-3 {
+  display: none;
+}
+
+/* CSS for Footer Animations */
+
+/* Find it Fast */
+#menu-footer-menu-1 li {
+  transition: font-size 0.3s;
+}
+
+#menu-footer-menu-1 li:hover {
+  font-size: 16px;
+}
+
+/* Learn More */
+#menu-footer-menu-2 li {
+  transition: font-size 0.3s;
+}
+
+#menu-footer-menu-2 li:hover {
+  font-size: 16px;
+}
+
+/* Customer Care */
+#menu-footer-menu-3 li {
+  transition: font-size 0.3s;
+}
+
+#menu-footer-menu-3 li:hover {
+  font-size: 16px;
+}
+
+/* CSS to center align top left bar in mobile view */
+
+@media screen and (max-width: 768px) {
+  /* Select the menu element by its id */
+  #menu-top-bar-left {
+    /* Set the display property to flex */
+    display: flex;
+    /* Set the justify-content property to center */
+    justify-content: center;
+    /* Set the align-items property to center */
+    align-items: center;
+    padding: 0px 30px;
+  }
+}
+
+/* CSS to hide the top right bar in mobile view */
+
+@media screen and (max-width: 768px) {
+  /* Use the id selector to select the element with the id menu-top-bar-right */
+  #menu-top-bar-right {
+    /* Use the display property to hide the element */
+    display: none;
+  }
+}

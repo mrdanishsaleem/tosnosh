@@ -1,0 +1,430 @@
+{
+  "version": "0.4",
+  "title": "Home-v4-elementor",
+  "type": "page",
+  "content": [
+    {
+      "id": "5736ef0d",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "684fdff2",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "424f04d",
+              "settings": {
+                "rev_slider_alias": "Home-v4-slider",
+                "ads_banners": [
+                  {
+                    "ad_image": {
+                      "id": 3376,
+                      "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/cameras.jpg"
+                    },
+                    "ad_text": "Catch Big <br><strong>Deals</strong> on the <br>Cameras",
+                    "action_text": "Shop Now",
+                    "_id": "3dca702",
+                    "action_link": "#"
+                  },
+                  {
+                    "ad_image": {
+                      "id": 4283,
+                      "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/08/DesktopPC-e1523629asdf1911.jpg"
+                    },
+                    "ad_text": "Shop the <strong>Hottest</strong> Products",
+                    "action_text": "Shop Now",
+                    "_id": "99f2de1",
+                    "action_link": "#"
+                  },
+                  {
+                    "ad_image": {
+                      "id": 2849,
+                      "url": "http://localhost/~abbas/electro/wp-content/uploads/2016/02/MobileDevicesv1-1-2.jpg"
+                    },
+                    "ad_text": "Tablets, Smartphones <strong>and more</strong>",
+                    "action_text": "<span class=\"upto\"><span class=\"prefix\">Upto</span><span class=\"value\">70</span><span class=\"suffix\">%</span>",
+                    "_id": "749d799",
+                    "action_link": "#"
+                  }
+                ],
+                "ads_block": [
+                  {
+                    "ad_image": {
+                      "url": "http://localhost/~ibrahim/electro/wp-content/uploads/revslider/home-v5-slider/1.jpg",
+                      "id": 4896
+                    },
+                    "ad_text": "offer",
+                    "action_text": "shop now",
+                    "_id": "89dc862"
+                  },
+                  {
+                    "ad_image": {
+                      "url": "http://localhost/~ibrahim/electro/wp-content/uploads/revslider/home-v1-slider/Smartwatches.png",
+                      "id": 4878
+                    },
+                    "ad_text": "offer",
+                    "action_text": "shop now",
+                    "_id": "fa18bcf"
+                  },
+                  {
+                    "ad_image": {
+                      "url": "http://localhost/~ibrahim/electro/wp-content/uploads/2018/04/slider-img-1-1.png",
+                      "id": 4742
+                    },
+                    "ad_text": "offer",
+                    "action_text": "shop now",
+                    "_id": "c0a4d41"
+                  }
+                ]
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_slider_with_ads_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "14167352",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "5d5c24ed",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "2f37f31b",
+              "settings": {
+                "nav_align": "center",
+                "tabs": [
+                  {
+                    "title": "Featured",
+                    "shortcode_tag": "recent_products",
+                    "per_page": "18",
+                    "orderby": "date",
+                    "order": "ASC",
+                    "products_choice": "select",
+                    "cat_operator": "IN",
+                    "_id": "7f14248",
+                    "product_columns": "6",
+                    "product_id": "",
+                    "category": ""
+                  },
+                  {
+                    "title": "On sale",
+                    "shortcode_tag": "sale_products",
+                    "per_page": "18",
+                    "orderby": "date",
+                    "order": "date",
+                    "products_choice": "select",
+                    "cat_operator": "IN",
+                    "_id": "a17adbe",
+                    "product_id": "",
+                    "category": ""
+                  },
+                  {
+                    "title": "Top Rated",
+                    "shortcode_tag": "top_rated_products",
+                    "per_page": "18",
+                    "orderby": "date",
+                    "order": "date",
+                    "products_choice": "select",
+                    "cat_operator": "IN",
+                    "_id": "bc49263",
+                    "product_id": "",
+                    "category": ""
+                  }
+                ],
+                "items": "6",
+                "is_autoplay": "yes",
+                "items_768": "2"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_carousel_tabs",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "6ff603d",
+      "settings": [],
+      "elements": [
+        {
+          "id": "7f23595c",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "26e4b62f",
+              "settings": {
+                "image": {
+                  "id": 3870,
+                  "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/home-v5-full-banner-1.png"
+                },
+                "image_size": "full"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "image",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "663dccb3",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "6ff918d",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "1a1a7a78",
+              "settings": {
+                "title": "Week Deals limited, Just now",
+                "header_timer": "true",
+                "timer_value": "8 hours",
+                "deal_percentage": "%",
+                "limit": "12",
+                "orderby": "date",
+                "order": "ASC",
+                "cat_operator": "IN",
+                "items": "4",
+                "is_dots": "true",
+                "timer_title": "Hurry up offer ends in:",
+                "items_0": "2",
+                "items_480": "2",
+                "items_768": "3",
+                "items_992": "3"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_deal_products_carousel_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "1065759b",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "103f9957",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "14999095",
+              "settings": {
+                "orderby": "date",
+                "order": "DESC",
+                "cat_operator": "IN",
+                "categories_title": "Best Sellers",
+                "enable_categories": "true",
+                "cat_limit": "3",
+                "cat_orderby": "date",
+                "cat_order": "DESC",
+                "vcat_orderby": "date",
+                "vcat_order": "ASC",
+                "vcat_limit": "10",
+                "image": {
+                  "id": 3485,
+                  "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/home-4-banner.jpg"
+                },
+                "title": "Smartphones & Tablets",
+                "limit": 6,
+                "columns": 3,
+                "cat_has_no_products": "true",
+                "vcat_has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_with_category_image_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "283d56d3",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "4907fa57",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "3154c34b",
+              "settings": {
+                "title": "Music Headphones",
+                "orderby": "date",
+                "order": "DESC",
+                "cat_operator": "IN",
+                "categories_title": "Bestsellers",
+                "enable_categories": "",
+                "cat_limit": "3",
+                "cat_orderby": "date",
+                "cat_order": "DESC",
+                "vcat_limit": "10",
+                "vcat_orderby": "date",
+                "vcat_order": "ASC",
+                "image": {
+                  "id": 3486,
+                  "url": "http://localhost/~abbas/electro/wp-content/uploads/2018/03/home-4-banner-2.jpg"
+                },
+                "product_id": "2599",
+                "limit": 6,
+                "columns": 3,
+                "vcat_has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_with_category_image_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "7ac0b716",
+      "settings": { "layout": "full_width", "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "143b6ca2",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "1ecd366e",
+              "settings": {
+                "title": "Top Categories this Week",
+                "columns": "4",
+                "limit": "8",
+                "orderby": "title",
+                "order": "ASC",
+                "enable_full_width": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_home_categories_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "2b33b438",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "368d9c51",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "7218a35b",
+              "settings": {
+                "title": "Laptops & Computers",
+                "orderby": "date",
+                "order": "DESC",
+                "featured_shortcode_tag": "products",
+                "categories_title": "Bestsellers",
+                "cat_limit": "3",
+                "cat_orderby": "DESC",
+                "vcat_limit": "10",
+                "vcat_orderby": "date",
+                "vcat_order": "DESC",
+                "product_id": "2628,2613,2630,2713,2625,2715",
+                "featured_product_id": "2599",
+                "enable_categories": "true",
+                "cat_has_no_products": "true",
+                "vcat_has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_6_1_with_categories_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "616a628c",
+      "settings": { "gap": "no", "html_tag": "div" },
+      "elements": [
+        {
+          "id": "1e962dc4",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "3876e07e",
+              "settings": {
+                "title": "Home Enternteinment",
+                "orderby": "date",
+                "order": "DESC",
+                "featured_shortcode_tag": "products",
+                "featured_product_id": "2439",
+                "categories_title": "Bestsllers",
+                "cat_limit": "3",
+                "vcat_limit": "10",
+                "vcat_orderby": "date",
+                "vcat_order": "DESC",
+                "enable_categories": "",
+                "vcat_has_no_products": "true"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "electro_elementor_products_6_1_with_categories_block",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    }
+  ]
+}
