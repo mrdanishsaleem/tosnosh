@@ -1,0 +1,26 @@
+/* Remove Toggler Menu from Navbar */
+.navbar-toggler {
+  display: none;
+}
+
+/* CSS for Navbar for hover and color */
+
+.secondary-nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-nav-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondary-nav-menu ul li a:hover {
+  color: #333e48;
+}
+
+/* CSS to fix space above newseletter form */
+div.wpforms-container-full {
+  margin: 0px auto !important;
+}
