@@ -1,0 +1,4 @@
+/* CSS to remove underline from main hero section slider */
+.ast-single-post .entry-content a {
+  text-decoration: none;
+}
