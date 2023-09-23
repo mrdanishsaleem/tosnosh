@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <title>Pakistan Map</title>
+  </head>
+  <body>
+    <div id="map" style="height: 900px"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+      // Define the bounds of Pakistan (southwest and northeast coordinates)
+      const pakistanBounds = L.latLngBounds(
+        L.latLng(23.6345, 60.872),
+        L.latLng(37.0841, 77.8375)
+      );
+
+      // Create a map centered on Pakistan and set the maximum bounds
+      const map = L.map("map", {
+        center: [30.3753, 69.3451],
+        zoom: 6,
+        maxBounds: pakistanBounds, // Set maximum bounds
+        maxBoundsViscosity: 1.0, // Prevent dragging map outside the bounds
+      });
+
+      // Add a tile layer (OpenStreetMap)
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+      }).addTo(map);
+
+      // Define cities and their information
+      const cities = [
+        {
+          name: "Karachi",
+          coordinates: [24.8607, 67.0011],
+          visitedDate: "2023-08-24",
+        },
+        {
+          name: "Lahore",
+          coordinates: [31.5497, 74.3436],
+          visitedDate: "2023-08-20",
+        },
+        {
+          name: "Islamabad",
+          coordinates: [33.6844, 73.0479],
+          visitedDate: "2023-08-18",
+        },
+        // Add more cities...
+      ];
+
+      // Add markers for each city
+      cities.forEach((city) => {
+        const marker = L.marker(city.coordinates).addTo(map);
+        marker.bindPopup(`City: ${city.name}<br>Visited: ${city.visitedDate}`);
+      });
+
+      // Listen for zoom end event
+      map.on("zoomend", () => {
+        const currentZoom = map.getZoom();
+        if (currentZoom >= 10 || currentZoom <= 4) {
+          map.setView([30.3753, 69.3451], 6);
+        }
+      });
+    </script>
+  </body>
+</html>

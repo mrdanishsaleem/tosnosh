@@ -1,0 +1,17 @@
+License for Simplemaps
+
+This license is a legal document designed to protect your rights and the rights of the developer of Simplemaps. Please read it carefully. Purchasing the map or downloading the trial constitutes acceptance of this license. 
+
+1) Description of Software and Parties: This license is a contract between you (hereafter, the Customer) and Simplemaps.com (hereafter, the Developer) regarding the use and/or sale of an interactive map of both the trial and full versions (hereafter, the Map).
+
+2) All rights in the Software are owned by the developer. This includes copyright 2012 of all program code and documentation. Trial users are prohibited from decompiling, reverse-engineering, modifying, tampering with, or otherwise altering the form or normal operation of the Map. Customers who purchase the full version are allowed to use the Map on one domain name per purchased license.  They may modify the Map, but they may not advertise the sale of the map or redistribute it as a standalone product.  Customers must purchase additional licenses for each site where they want to use the Map.
+
+3) Versions: There is a Trial Version and a Full Version of the Map available. The Trial version is a functionally limited variety of the Full Version of the Map. Upgrading to the Full Version and utilizing the extended functionality requires purchase of a License.
+
+4) Guarantee: The Developer guarantees that for the period of thirty (30) days from the purchase of a License to the Full Version of the Map that the Customer shall, upon request, be refunded their actual purchase price within a reasonable period of time. The Customer acknowledges that receipt of a refund constitutes a termination of their License to use the Map. Refunds after the period of thirty (30) days shall be at the sole discretion of the Developer.
+
+5) LIMITATION OF LIABILITY: THE MAP IS SOLD "AS IS" AND "WITH ALL FAULTS". THE DEVELOPER MAKES NO WARRANTY THAT IT IS FREE OF DEFECTS OR IS SUITABLE FOR ANY PARTICULAR PURPOSE. IN NO EVENT SHALL THE DEVELOPER BE RESPONSIBLE FOR LOSS OR DAMAGES ARRISING FROM THE INSTALLATION OR USE OF THE SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES. THE CUSTOMER IS SOLELY RESPONSIBLE FOR ENSURING THAT THEIR USE OF THE MAP IS IN ACCORDANCE WITH THE LAW OF THEIR JURISDICTION.
+
+6) PROHIBITION OF ILLEGAL USE: USE OF THE MAP WHICH IS CONTRARY TO THE LAW IS PROHIBITED, AND IMMEDIATELY TERMINATES THE CUSTOMER'S LICENSE TO USE THE SOFTWARE.
+
+
